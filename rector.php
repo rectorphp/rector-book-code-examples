@@ -6,7 +6,7 @@ use Utils\Rector\Rector\UseRequestRequestGetRector;
 use Rector\Config\RectorConfig;
 
 return RectorConfig::configure()
-    ->withPaths([__DIR__ . '/app'])
+    ->withPaths([__DIR__ . '/src'])
     ->withRules([
         UseRequestRequestGetRector::class,
     ]);
